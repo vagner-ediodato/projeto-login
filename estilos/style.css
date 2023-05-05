@@ -30,9 +30,10 @@ section#login {
   height: 500px;
   border-radius: 20px;
   transform: translate(-50%, -50%);
-
+ transition: width 1.3s, height 2.3s;
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
+  transition-timing-function: ease;
 }
 section#login > div#imagem {
   height: 200px;
