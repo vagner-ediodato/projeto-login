@@ -8,8 +8,8 @@
   box-sizing: border-box;
 }
 
-html,
-body {
+body,
+html {
   background-color: rgb(95, 30, 156);
 
   width: 100vh;
@@ -17,28 +17,29 @@ body {
 }
 
 main {
-  position: relative;
   width: 100vh;
   height: 100vw;
 }
 
 section#login {
   position: absolute;
-  background-color: white;
-  width: 260px;
-  height: 600px;
-  border-radius: 20px;
-  transform: translate(-50%, -50%);
   top: 50%;
   left: 50%;
+  background-color: white;
+  width: 250px;
+  height: 500px;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+
   overflow: hidden;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 }
 section#login > div#imagem {
   height: 200px;
   display: block;
-  background: url(../imagens/tela-login.jpg) no-repeat;
+  background: #5f2c82 url(../imagens/tela-login.jpg) no-repeat;
   background-size: cover;
+  background-position: left bottom;
 }
 
 section#login > div#formulario {
