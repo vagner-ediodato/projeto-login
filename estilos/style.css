@@ -78,11 +78,11 @@ div.campo > i {
 div.campo > input {
   background-color: #94cfcd;
   font-size: 1em;
-  width: calc(100% - 45px);
+  width: calc(100% - 47px);
 
   padding: 4px;
   border-radius: 8px;
-  height: 100%;
+  height: 86%;
   border: 0px;
   transform: translateY(-10px);
 }
